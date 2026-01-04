@@ -10,7 +10,6 @@ Original file is located at
 # AI Third Party Risk Management project questionnaire for IT 745
 # Install SteramLit
 
-pip install python-docx PyPDF2
 
 # app.py
 import streamlit as st
