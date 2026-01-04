@@ -9,8 +9,8 @@ Original file is located at
 
 # AI Third Party Risk Management project questionnaire for IT 745
 # Install SteramLit
-
-!pip install python-docx PyPDF2
+pip install SteamLit
+pip install python-docx PyPDF2
 
 # app.py
 import streamlit as st
@@ -351,8 +351,8 @@ if st.button("Run AI-Driven Assessment"):
 st.markdown("---")
 st.caption("Developed as part of AI-Driven Cybersecurity Research on Third-Party Risk Management © 2025")
 
-!npm install localtunnel
+npm install localtunnel
 
-!curl https://loca.lt/mytunnelpassword
+curl https://loca.lt/mytunnelpassword
 
-!python -m streamlit run ai_tprm_dashboard_ai.py & npx localtunnel --port 8501
+python -m streamlit run ai_tprm_dashboard_ai.py & npx localtunnel --port 8501
