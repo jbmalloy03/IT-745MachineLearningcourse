@@ -19,7 +19,7 @@ import sys
 packages =['streamlit', 'scikit-learn', 'python-docx', 'pypdf2']
 
 #Implement pip as a subprocess
-subprocess.check_call([sys.executable, '-m, 'pip', 'install', *packages])
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', *packages])
 
 #import libraries                       
 
