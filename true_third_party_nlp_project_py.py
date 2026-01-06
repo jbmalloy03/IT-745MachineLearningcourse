@@ -8,16 +8,16 @@ Original file is located at
 # AI Third Party Risk Management project questionnaire for IT 745
 # Install SteramLit
 
- import streamlit as st
- import pandas as pd
- import json
- import numpy as np
- import os
- from datetime import datetime
- from sklearn.feature_extraction.text import TfidfVectorizer
- from sklearn.metrics.pairwise import cosine_similarity
- import docx
- import PyPDF2
+import streamlit as st
+import pandas as pd
+import json
+import numpy as np
+import os
+from datetime import datetime
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import docx
+import PyPDF2
 
 # # =========================================================
 # # Questionnaire Configuration
