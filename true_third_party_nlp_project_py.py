@@ -15,8 +15,6 @@ import json
 import numpy as np
 import os
 from datetime import datetime
-from sklearn.feature_extraction.text 
-import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import docx
 import PyPDF2
