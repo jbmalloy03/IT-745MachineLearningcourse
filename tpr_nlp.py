@@ -13,6 +13,7 @@ risk assessment using questionnaires, NLP similarity scoring,
 and Azure OpenAI LLM-based advisory analysis.
 "
 """
+!pip install streamlit scikit-learn python-docx pypdf2
 
 
 import streamlit as st
