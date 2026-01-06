@@ -15,7 +15,6 @@ import json
 import numpy as np
 import os
 from datetime import datetime
-import docx
 import PyPDF2
 
 # # =========================================================
