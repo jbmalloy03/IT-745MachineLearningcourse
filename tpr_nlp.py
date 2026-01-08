@@ -11,6 +11,8 @@ Interactive Streamlit dashboard that performs third-party vendor
 risk assessment using questionnaires, NLP similarity scoring.
 "
 """
+# Install requirements
+pip install -r /mount/src/it-745_machine_learning_course/requirements.txt
 
 #import libraries                       
 
