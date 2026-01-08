@@ -27,8 +27,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import docx
 import PyPDF2
 
-"""# Questionnaire Configuration
-"""
+
 
 
 questions = {
@@ -44,8 +43,7 @@ questions = {
     "q10": {"text": "Does the vendor provide employee cybersecurity training?", "weight": 5}
 }
 
-"""# Control Corpus (Baseline for NLP)
-"""
+
 
 
 CONTROL_CORPUS = [
@@ -56,7 +54,7 @@ CONTROL_CORPUS = [
     "vendor risk governance oversight compliance monitoring"
 ]
 
-"""#Helper Functions"""
+
 
 def extract_policy_text(uploaded_file):
     text = ""
