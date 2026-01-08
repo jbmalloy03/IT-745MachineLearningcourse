@@ -28,8 +28,8 @@ import docx
 import PyPDF2
 
 """# Questionnaire Configuration
-
 """
+
 
 questions = {
     "q1": {"text": "Does the vendor have a formal cybersecurity policy?", "weight": 10},
