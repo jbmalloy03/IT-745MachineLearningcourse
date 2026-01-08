@@ -11,8 +11,6 @@ Interactive Streamlit dashboard that performs third-party vendor
 risk assessment using questionnaires, NLP similarity scoring.
 "
 """
-import subprocess
-import sys
 
 #import libraries                       
 
