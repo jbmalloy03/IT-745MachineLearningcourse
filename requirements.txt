@@ -2,7 +2,8 @@ streamlit
 scikit-learn
 python-docx
 pypdf2
-OpenAI
+
+
 
 
 
