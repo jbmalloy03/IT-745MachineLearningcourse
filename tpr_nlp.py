@@ -32,16 +32,9 @@ from openai import OpenAI
 # OpenAI Configuration
 # =========================================================
 client = OpenAI(
-  api_key="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"
-)
+  api_key=os.getenv("OPENAI_API_KEY")
 
-response = client.responses.create(
-  model="gpt-5-nano",
-  input="write a haiku about ai",
-  store=True,
-)
-
-print(response.output_text);
+DEPLOYMENT_NAME = os.getenv("OPENAI_DEPLOYMENT")
 
 # =========================================================
 # Questionnaire Configuration
